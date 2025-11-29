@@ -11,8 +11,8 @@ if not os.path.exists(output_path):
 
 cap = cv2.VideoCapture(input_file)
 
-width = 16
-height = 16
+width = 640
+height = 360
 
 frame_num = 0
 while cap.isOpened():
